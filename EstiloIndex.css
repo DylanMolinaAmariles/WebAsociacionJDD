@@ -53,4 +53,96 @@ nav a:hover{
     nav{
         padding: 10px 0px;
     }
+}body{
+   background-image:url("../WebAsociacionJDD/fotosTrbajoGrupal/jdd-modified2.png"); 
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    position: sticky;
+    top: 0;
+    display: flex;
+   min-height: 100px;
+    background-color:   #363537;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+ 
+.nombre-Asociacion{
+font-size: 15px;
+width: 70px;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 100px;
+    margin-right: 10px;
+}
+
+ nav a{
+    font-weight: 600px;
+    padding-right: 10px;
+}
+
+header nav a:hover{
+   
+    color: gray;
+    box-shadow: 0px 0px 10px;
+
+}
+
+p a{
+    color: black;
+}
+
+.campo img{
+    width: 400px;
+    height: 350px;
+}
+
+.equipo img {
+    width: 400px;
+    height: 350px;
+}
+
+footer{
+    background-color: gray;
+    min-height: 100px;
+}
+
+
+footer nav {
+    width: 120px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+footer nav a:hover{
+   
+    color: black;
+    box-shadow: 0px 0px 10px;
+
+}
+
+@media (max-widht:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
 }
