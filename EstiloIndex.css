@@ -161,12 +161,3 @@ main {
 }
 
 
-@media (max-widht:700px){
-    header{
-        flex-direction: column;
-    }
-
-    nav{
-        padding: 10px 0px;
-    }
-} 
