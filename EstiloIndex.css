@@ -51,16 +51,32 @@ header nav a:hover{
 
 }
 
-p a{
+.contenido p a{
     color: black;
 }
+
+main {
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 
 .campo img{
     width: 400px;
     height: 350px;
 }
 
-.equipo img {
+.equipoM img {
+    width: 400px;
+    height: 350px;
+}
+
+.equipoI img {
+    width: 400px;
+    height: 350px;
+}
+
+.competiciones img{
     width: 400px;
     height: 350px;
 }
