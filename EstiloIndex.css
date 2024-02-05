@@ -21,12 +21,16 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-}
+} 
  
 .nombre-Asociacion{
 font-size: 15px;
 width: 70px;
 
+}
+
+p{
+font-weight: bold;
 }
 
 .logo{
@@ -51,34 +55,53 @@ header nav a:hover{
 
 }
 
+.contenido{
+  margin-left: 20px;
+}
+
 .contenido p a{
-    color: black;
+    color: blue;
 }
 
-main {
+main .tituloBox{
+    margin-left: 20px;
+}
+main .box h2{
+    text-align: center;
+}
+
+main .box p{
+    text-align: center;
+}
+
+main .box .imagen{
+    box-shadow: 0px 0px 10px;
+    border: solid;
+}
+
+main .box {
     width: 100%;
+    max-width: 2000px;
+    margin: auto;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+
 }
 
-
-.campo img{
-    width: 400px;
-    height: 350px;
+.imagen{
+    width: 350px;
+    height: 300px;
+    display: flex;
+    margin: auto;
+    
 }
 
-.equipoM img {
-    width: 400px;
-    height: 350px;
+.masInformacion{
+    margin-left: 20px;
 }
-
-.equipoI img {
-    width: 400px;
-    height: 350px;
-}
-
-.competiciones img{
-    width: 400px;
-    height: 350px;
+.masInformacion h2 a{
+    color: blue;
 }
 
 .pieDePagina{
