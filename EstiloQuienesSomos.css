@@ -41,6 +41,11 @@ body{
      margin-right: 10px;
  }
  
+
+.paginas{
+    display: flex;
+}
+
   nav a{
      font-weight: 600px;
      padding-right: 10px;
@@ -53,11 +58,15 @@ body{
  
  }
 
+ #menu a{  
+    color: black;
+}
+
 main .informacion1 a{
     color: blue;
 }
 
-main .informacion1 .nosotros{
+main .creadores .nosotros{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -67,26 +76,26 @@ main .informacion1 .nosotros{
 }
 .jorge{
     width:250px;
-    height: 150px;
-    display: flex;
+    height: 500px;
     margin: auto;
     border: solid;
+    box-shadow: 0px 0px 10px;
 }
 
 .dylan{
     width:250px;
-    height: 150px;
-    display: flex;
+    height: 500px;
     margin: auto;
     border: solid;
+    box-shadow: 0px 0px 10px;
 }
 
 .derlys{
     width:250px;
-    height: 150px;
-    display: flex;
+    height: 500px;
     margin: auto;
     border: solid;
+    box-shadow: 0px 0px 10px;
 }
 
 .imagen{

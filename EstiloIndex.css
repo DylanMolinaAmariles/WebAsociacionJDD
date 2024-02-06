@@ -48,12 +48,17 @@ font-weight: bold;
     padding-right: 10px;
 }
 
+.paginas{
+    display: flex;
+}
+
 header nav a:hover{
    
     color: gray;
     box-shadow: 0px 0px 10px;
-
 }
+
+
 
 .contenido{
   margin-left: 20px;

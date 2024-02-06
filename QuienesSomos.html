@@ -6,7 +6,8 @@
 <link rel="stylesheet" href="../WebAsociacionJDD/EstiloQuienesSomos.css">
 <link rel="icon" href="../WebAsociacionJDD/fotosTrbajoGrupal/jdd-modified.png" type="image/png">
 <script src="https://kit.fontawesome.com/53ba6e752a.js" crossorigin="anonymous"></script>
-    <title>QuienesSomos</title>
+  <link rel="stylesheet" href="../WebAsociacionJDD/Registro.css">
+<title>QuienesSomos</title>
 </head>
 <body>
     <header>
@@ -16,44 +17,82 @@
           
             
         </a>
-        <nav>
+        <nav class="paginas">
              <a href="../WebAsociacionJDD/Index.html" class="nav-link">Inicio</a>
-             <a href="" class="nav-link">Registro</a>
+             <div class="menu-letter" onclick="toggleMenu()">Registro</div>
+             <nav id="nav">
+                <ul>
+                    <li><a href="#">Como socio</a></li>
+                    <li><a href="#">Como jugador </a></li>
+                </ul>
+            </nav>
              <a href="" class="nav-link">Actividades</a>
              <a href="" class="nav-link">Contacto</a>
          </nav>
      
     </header>
 
+    <div class="indice">
+        <nav>
+          <ul id="menu">
+            <li><a href="#creadores">Creadores</a></li>
+            <li><a href="#informacion1">¿Quienes somos?</a></li>
+            <li><a href="#informacion2">¿Cuales son nuestras actividades?</a></li>
+            <li><a href="#informacion3">¿Cuesta dinero?</a></li>
+            <li><a href="#informacion4">¿Como se organizara el clendario?</a></li>
+          </ul>
+        </nav>
+    </div>
+
     <main>
-        <div class="informacion1">
-            <h2>¿Quíenes somos?</h2>
-            <p>Somos una Asociacion de fútbol creado por:</p>
-                <div class="nosotros">
-                    <div class="jorge">
-                        <img class="imagen" src="../WebAsociacionJDD/fotosTrbajoGrupal/pexels-alexander-nadrilyanski-7307392.jpg" alt="Jorge">
-                    </div>
 
-                    <div class="dylan">
-                        <img class="imagen" src="../WebAsociacionJDD/fotosTrbajoGrupal/pexels-julius-holstein-1627960.jpg" alt="Dylan">
-                    </div>
 
-                    <div class="derlys">
-                        <img class="imagen" src="../WebAsociacionJDD/fotosTrbajoGrupal/pexels-mike-1171084.jpg" alt="Derlys">
-                    </div>
-                    
+        <div id="creadores" class="creadores">
+            <h2>Creadores:</h2>
+            <div class="nosotros">
+                <div class="jorge">
+                    <img class="imagen" src="../WebAsociacionJDD/fotosTrbajoGrupal/pexels-alexander-nadrilyanski-7307392.jpg" alt="Jorge">
+                    <p>
+                       Nombre: Jorge Álvarez de la Torre <br>
+                    </p>
                 </div>
-            <br>
-            <p>Nuestra asociación esta destinada de conseguir personas que esten animadas a mejorar nuetra asociación, equipo y que vengan con ganas de conseguir titulos. 
+
+                <div class="dylan">
+                    <img class="imagen" src="../WebAsociacionJDD/fotosTrbajoGrupal/pexels-julius-holstein-1627960.jpg" alt="Dylan">
+                    <p>Nombre: Dylan Molina Amariles</p>
+                </div>
+
+                <div class="derlys">
+                    <img class="imagen" src="../WebAsociacionJDD/fotosTrbajoGrupal/pexels-mike-1171084.jpg" alt="Derlys">
+                    <p>
+                        Nombre: Derlys denis 
+                    </p>
+                </div>
+        </div>
+        <div id="informacion1" class="informacion1">
+            <h2>¿Quíenes somos?</h2>
+            <p>Somos una asociacion de futbol que esta destinada de conseguir personas que esten animadas a mejorar nuetra asociación, equipo y que vengan con ganas de conseguir titulos. 
                 Si estas interesada en unirte a nosotros ya sea siendo socio o quieriendo ser un jugador puedes envbiarnos tu información a traves de <a href="">Registro</a>
             </p>
         </div>
 
-        <div class="información2">
+        <div id="informacion2" class="información2">
             <h2>¿Cuales son nuestras actividades?</h2>
             <p>Nuetras actividades se centran sobretodo en nuetras competiciones ya sean en la liga o torneos a un partido unico. A veces organizamos amistosos con la intención 
                 de ser beneficos
             </p>
+        </div>
+
+        <div id="informacion3" class="informaacion3">
+            <h2>¿Cuesta dinero?</h2>
+            <p>El registro para los jugadores no es completamente gratis ya que se necesitara cobrar (15€ mesuales o 155€ al año) para sostener los vestidores y uniformes.<br>
+                El registro para socios la catidad es mas grande debido a que entraras a formar parte de nuestro de grupo de socios que va dirigido a mejorar nuestra asociación 
+            </p>
+        </div>
+
+        <div id="informacion4" class="informacion4">
+            <h2>¿Como se organizara el calendario?</h2>
+            <p>Nuestro calendario dependera de las competiciones a las que estamos ligadas, lo unico de que si organizamos nosotros son de los partidos amistosos</p>
         </div>
      </main>
 
@@ -97,6 +136,6 @@
         
     </footer>
 
-    
+    <script src="../WebAsociacionJDD/QuienSomos.js"></script>
 </body>
 </html>
