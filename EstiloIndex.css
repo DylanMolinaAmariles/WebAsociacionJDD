@@ -2,6 +2,7 @@
 
 body{
    background-image:url("../WebAsociacionJDD/fotosTrbajoGrupal/jdd-modified2.png"); 
+   z-index: 0;
 }
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -12,7 +13,7 @@ a{
     text-decoration: none;
     color: white;
 }
-header{
+.encabezado1{
     position: sticky;
     top: 0;
     display: flex;
@@ -59,9 +60,22 @@ header nav a:hover{
 }
 
 
+.bienvenido{
+    background-image: url("../WebAsociacionJDD/fotosTrbajoGrupal/BIENVENIDOS\ .jpg");
+    min-height: 600px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+   
+    margin: auto;
+}
+
+
 
 .contenido{
   margin-left: 20px;
+  text-align: center;
+  font-size: 18px;
 }
 
 .contenido p a{
@@ -108,6 +122,9 @@ main .box {
 .masInformacion h2 a{
     color: blue;
 }
+
+
+
 
 .pieDePagina{
     background-color: gray;

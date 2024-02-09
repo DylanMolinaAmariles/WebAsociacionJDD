@@ -60,7 +60,10 @@ body{
 
  #menu a{  
     color: black;
+    font-size: 20px;
 }
+
+
 
 main .informacion1 a{
     color: blue;
@@ -104,6 +107,78 @@ main .creadores .nosotros{
    
     
 }
+
+.cajaDePreguntas{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.preguntas{
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+.imagenDePreguntas{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.imagenDePreguntas img{
+    width: 300px;
+    padding: 10px;
+}
+    
+
+.actividades {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .actividad {
+    display: none;
+  }
+  
+  .actividad img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .textoActividades {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+  }
+  
+  /* Estilos de los botones de navegación */
+  
+  .anterior, .siguiente{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+  .anterior {
+    left: 10px;
+  }
+  
+  .siguiente {
+    right: 10px;
+  }
+
+
 
  .pieDePagina{
     background-color: gray;
