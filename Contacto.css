@@ -1,7 +1,29 @@
-.body{
-    background-image:url("../WebAsociacionJDD/fotosTrbajoGrupal/jdd-modified2.png"); 
- }
+body{
 
- .body{
-    font-family: 'Times New Roman', Times, serif;
- }
+   background-image: url(fotosTrbajoGrupal/jdd-modified2.png);
+
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+   position: sticky;
+   top: 0;
+   display: flex;
+  min-height: 100px;
+   background-color:   #363537;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px;
+}
+a{
+   text-decoration: none;
+   color: white;
+}
+.logo{
+   display: flex;
+   align-items: center;
+}
+
+.logo img{
+   height: 100px;
+   margin-right: 10px;
+}
