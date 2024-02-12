@@ -114,4 +114,31 @@ a{
 .pieDePagina .caja2 small{
    font-size: 15px;
 }
+.correo p a{
+   color: blue;
+
+}
+.correo{
+
+   font-size: 20px;
+}
+table {
+   width: 50%;
+   border-collapse: collapse;
+   margin: auto;
+   background-color: white;
+}
+
+th, td {
+   border: 1px solid #dddddd;
+   text-align: left;
+   padding: 8px;
+}
+
+th {
+   background-color: #f2f2f2;
+}
+.tel{
+   color: blue;
+}
 
