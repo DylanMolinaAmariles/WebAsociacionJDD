@@ -39,11 +39,10 @@ punto.forEach( ( cadaPunto , i )=> {
 
 
 
-function calendario(){
+function calendario(indice){
     var nombreEvento = prompt("Indica el nombre del evento");
     var evento = document.getElementsByClassName("evento");
-
-    evento.innerText = nombreEvento;
+    evento[indice].innerHTML = nombreEvento;
 }
  
 

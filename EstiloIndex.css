@@ -262,45 +262,12 @@ main .box {
     cursor: not-allowed;
 }
 
-.event {
+.evento {
     background-color: lightblue;
+    color: black;
+    font-size: 18px;
+    width: 100%;
   }
-
-/*
-#semana{
-    margin-left: 70px;
-    padding-top: 50px;
-}
-
-#calendar {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap: 5px;
-    border: 5px solid;
-    background-color: white;
-    margin: 20px;
-
-  }
-  
-  .header-row {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-
-
-  }
-  
-  .day {
-    padding: 10px;
-    border: 1px solid ;
-    text-align: center;
-    margin: 13px;
- 
-  }
-  
-  .event {
-    background-color: lightblue;
-  }
-*/
 
 .pieDePagina{
     background-color: gray;
