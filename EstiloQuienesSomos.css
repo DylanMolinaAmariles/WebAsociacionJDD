@@ -60,7 +60,10 @@ body{
 
  #menu a{  
     color: black;
+    font-size: 20px;
 }
+
+
 
 main .informacion1 a{
     color: blue;
@@ -104,6 +107,32 @@ main .creadores .nosotros{
    
     
 }
+
+.cajaDePreguntas{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.preguntas{
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+.imagenDePreguntas{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.imagenDePreguntas img{
+    width: 300px;
+    padding: 10px;
+}
+    
+
+
 
  .pieDePagina{
     background-color: gray;

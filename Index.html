@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../WebAsociacionJDD/EstiloIndex.css">
     <link rel="icon" href="../WebAsociacionJDD/fotosTrbajoGrupal/jdd-modified.png" type="image/png">
-    <title>Document</title>
+    <title>Index</title>
     <script src="https://kit.fontawesome.com/53ba6e752a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../WebAsociacionJDD/Registro.css">
     
 
 </head>
 <body>
-    <header>
+    <header class="encabezado1">
         <a href="../WebAsociacionJDD/EstiloIndex.css" class=logo>
             <img src="../WebAsociacionJDD/fotosTrbajoGrupal/jdd-modified.png" alt="logo">
             <h2 class="nombre-Asociacion">Asociación de fútbol</h2>
@@ -32,15 +32,20 @@
      
     </header>
 
+     <header class="bienvenido"> 
+        
+     </header>   
+
+
 
     <div class="contenido">
             <h2>Asociación de fútbol madrileña</h2>
-            <p>Únete a nosotros a traves de <a href="">Registro</a> o contactanos desde <a href="">Contacto</a></p>
+            <p>Únete a nosotros como <a href="">Jugador</a> o como <a href="">Socio</a>, tambien puedes contactarnos desde <a href="">Contacto</a></p>
     </div>
 
 
     <main>
-        <h2 class="tituloBox">Lo que ofrecemos:</h2>
+        <h2 class="tituloBox">Lo que puede aportar nuestra asociación (estamos trabajando para abrir nuevas fronteras):</h2>
         <div class="box">
             <div class="campo">
                 <img class="imagen"  src="../WebAsociacionJDD/fotosTrbajoGrupal/pexels-mike-1171084.jpg" alt="Campo de futbol">
@@ -77,7 +82,95 @@
     </main>
 
     <div class="masInformacion">
-        <h2 class=" ">Si quieres saber mas sobre nosotros puedes acudir a <a href="">Información</a></h2>
+        <h2 class=" ">Si quieres saber mas sobre nosotros puedes acudir a <a href="../WebAsociacionJDD/QuienesSomos.html">Información</a></h2>
+    </div>
+
+   
+
+    <div class="actividades">
+        <h2>Actividesdes de nuestra asosicación</h2>
+        <div class="grande">
+            <div class="actividad">
+                <img src="../WebAsociacionJDD/fotosTrbajoGrupal/tablaLiga.jpg" alt="">
+                <div class="textoActividades">Competición de liga: se jugaran los fines de semana y la competicion durara al rededor de un año</div>
+            </div>
+
+            <div class="actividad">
+                <img src="../WebAsociacionJDD/fotosTrbajoGrupal/copa.jpg" alt="">
+                <div class="textoActividades">copa: se jugaran a un partido directo donde el ganador pasara a la siguiente fase</div>
+            </div>
+
+            <div class="actividad">
+                <img src="../WebAsociacionJDD/fotosTrbajoGrupal/amistosos.png" alt="">
+                <div class="textoActividades">Amistosos: partidos amistosos donde los organizaremos nosotros y se usaran para ver el nivel del equipo</div>
+            </div>
+
+            <div class="actividad">
+                <img src="../WebAsociacionJDD/fotosTrbajoGrupal/pexels-rezoana-amin-rayna-5040058.jpg" alt="">
+                <div class="textoActividades">Partidos beneficos: partidos que se organizaran con la intención de recaudar fondos para ayudar a gente con diversidad disfuncional </div>
+            </div>
+        </div>   
+
+        <ul class="puntos">
+            <li class="punto activo">1</li>
+            <li class="punto">2</li>
+            <li class="punto">3</li>
+            <li class="punto">4</li>
+        </ul>
+        
+    </div>
+ 
+    <div class="calendarioContenedor">
+        <div class="encabezadoCalendario" >
+            <h1>Febrero</h1>
+            <p>2024</p>
+        </div>
+
+        <div class="calendario">
+            <span class="nombreDelDia">Lunes</span>
+            <span class="nombreDelDia">Martes</span>
+            <span class="nombreDelDia">Miércoles</span>
+            <span class="nombreDelDia">Jueves</span>
+            <span class="nombreDelDia">Viernes</span>
+            <span class="nombreDelDia">Sábado</span>
+            <span class="nombreDelDia">Domingo</span>
+
+            <div class="dia diaDisabled">29</div>
+            <div class="dia diaDisabled">30</div>
+            <div class="dia diaDisabled">31</div>
+            <div id="dia" onclick="calendario(0)">1 <div class="evento"></div></div>
+            <div id="dia" onclick="calendario(1)">2 <div class="evento"></div></div>
+            <div id="dia" onclick="calendario(2)">3<div class="evento"></div></div>
+            <div id="dia" onclick="calendario(3)">4<div class="evento"></div></div>
+            <div id="dia" onclick="calendario(4)">5<div class="evento"></div></div>
+            <div id="dia" onclick="calendario(5)">6 <div class="evento"></div></div>
+            <div id="dia" onclick="calendario(6)">7 <div class="evento"></div></div>
+            <div id="dia" onclick="calendario(7)">8 <div class="evento"></div></div>
+            <div id="dia" onclick="calendario(8)">9 <div class="evento"></div></div>
+            <div id="dia" onclick="calendario(9)">10 <div class="evento"></div></div>
+            <div id="dia" onclick="calendario(10)">11 <div class="evento"></div></div>
+            <div id="dia" onclick="calendario(11)">12 <div class="evento"></div></div>
+            <div id="dia" onclick="calendario(12)">13 <div class="evento"></div></div>
+            <div id="dia" onclick="calendario(13)">14 <div class="evento"></div></div>
+            <div id="dia" onclick="calendario(14)">15 <div class="evento"></div></div>
+            <div id="dia" onclick="calendario(15)">16 <div class="evento"></div></div>
+            <div id="dia" onclick="calendario(16)">17 <div class="evento"></div></div>
+            <div id="dia" onclick="calendario(17)">18 <div class="evento"></div></div>
+            <div id="dia" onclick="calendario(18)">19 <div class="evento"></div></div>
+            <div id="dia" onclick="calendario(19)">20 <div class="evento"></div></div>
+            <div id="dia" onclick="calendario(20)">21 <div class="evento"></div></div>
+            <div id="dia" onclick="calendario(21)">22 <div class="evento"></div></div>
+            <div id="dia" onclick="calendario(22)">23 <div class="evento"></div></div>
+            <div id="dia" onclick="calendario(23)">24 <div class="evento"></div></div>
+            <div id="dia" onclick="calendario(24)">25 <div class="evento"></div></div>
+            <div id="dia" onclick="calendario(25)">26 <div class="evento"></div></div>
+            <div id="dia" onclick="calendario(26)">27 <div class="evento"></div></div>
+            <div id="dia" onclick="calendario(27)">28 <div class="evento"></div></div>
+            <div id="dia" onclick="calendario(28)">29 <div class="evento"></div></div>
+            <div class="dia diaDisabled">1</div>
+            <div class="dia diaDisabled">2</div>
+            <div class="dia diaDisabled">3</div>
+        </div>    
     </div>
 
    
@@ -113,11 +206,12 @@
         </nav>
     </div>
     <div class="caja2">
-        <small>&copy; 2024 <b>Asoiciación de fútbol</b>  - Todos los Derechos Reservados.</small>
+        <small>&copy; 2024 <b>Asociación de fútbol</b>  - Todos los Derechos Reservados.</small>
     </div>
-        
-    
+
+  
 </footer>
-<script src="../WebAsociacionJDD/QuienSomos.js"></script>
+
+<script src="../WebAsociacionJDD/JavaScript.js"> </script>
 </body>
 </html>
