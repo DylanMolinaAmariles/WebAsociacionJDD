@@ -4,29 +4,59 @@ body{
 
    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-header{
-   position: sticky;
-   top: 0;
-   display: flex;
-  min-height: 100px;
-   background-color:   #363537;
-   justify-content: space-between;
-   align-items: center;
-   padding: 10px;
+.encabezado1{
+    position: sticky;
+    top: 0;
+    display: flex;
+   min-height: 100px;
+    background-color:   #363537;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    z-index: 5;
+} 
+ 
+.nombre-Asociacion{
+font-size: 15px;
+width: 70px;
+
 }
+
+p{
+font-weight: bold;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 100px;
+    margin-right: 10px;
+}
+
+ nav a{
+    font-weight: 600px;
+    padding-right: 10px;
+}
+
+.paginas{
+    display: flex;
+}
+
+header nav a:hover{
+   
+    color: gray;
+    box-shadow: 0px 0px 10px;
+}
+
+
 a{
    text-decoration: none;
    color: white;
 }
-.logo{
-   display: flex;
-   align-items: center;
-}
 
-.logo img{
-   height: 100px;
-   margin-right: 10px;
-}
 
 .ubicacion{
    display: flex;
