@@ -16,4 +16,34 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 
+var grande    = document.querySelector('.grande')
+var punto     = document.querySelectorAll('.punto')
+punto.forEach( ( cadaPunto , i )=> {
+   
+    punto[i].addEventListener('click',()=>{
+
+        var posicion  = i;
+      
+        var operacion = posicion * -95;
+
+        grande.style.transform = `translateX(${ operacion }%)`;
+       
+        punto.forEach( ( cadaPunto , i )=>{
+         
+            punto[i].classList.remove('activo')
+        })
+        punto[i].classList.add('activo')
+
+    })
+})
+
+
+
+function calendario(){
+    var nombreEvento = prompt("Indica el nombre del evento");
+    var evento = document.getElementsByClassName("evento");
+
+    evento.innerText = nombreEvento;
+}
+ 
 

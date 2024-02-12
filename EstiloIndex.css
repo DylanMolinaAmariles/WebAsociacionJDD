@@ -22,6 +22,7 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    z-index: 5;
 } 
  
 .nombre-Asociacion{
@@ -124,7 +125,182 @@ main .box {
 }
 
 
+.actividades{
+    width: 550px;
+    margin: auto;
+    overflow: hidden;
+  z-index: 1;
+}
 
+.actividades h2{
+    padding-left: 45px;
+    padding-top: 40px;
+   
+}
+.actividades .grande{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+
+    transition: all .5s ease;
+    transform: translateX(-0%);
+  
+}  
+
+.actividad{
+
+  padding-right: 20px;
+
+ 
+}
+
+.actividades img{
+    border: solid;
+   width: 500px;
+   height: 400px;
+   
+}
+.actividades .puntos{
+    list-style-type: none;
+    
+    width:100%;
+    margin:1em 0 0;
+    padding:.4em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.actividades .punto{
+    width: 2em;
+    height: 2em;
+    background-color: gray;
+    margin: 10px;
+    text-align: center;
+   
+}
+
+.actividades .punto.activo{
+    background-color: lightblue;
+  
+}
+
+.calendarioContenedor{
+    width: 100%;
+    max-width: 1200px;
+    background-color: white;
+    box-shadow: 0 2px 20px #ccc;
+    border-radius: 10px;
+    margin:auto;
+    
+}
+
+.encabezadoCalendario{
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.encabezadoCalendario h1{
+    font-size: 18px;
+    margin: 0;
+}
+
+.encabezadoCalendario p{
+    font-size: 13px;
+    margin: 5px;
+    color: #ccc;
+    font-weight: bold;
+}
+
+.calendario{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(7, minmax(120px, 1fr));
+    grid-template-rows: 50px;
+    grid-auto-rows: 120px;
+}
+.dia{
+    text-align: right;
+    padding: 14px 20px ;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;   
+    font-size: 12px;
+    color: #ccc;
+}
+
+#dia{
+    text-align: right;
+    padding: 14px 20px ;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;   
+    font-size: 12px;
+    color: #ccc;
+}
+#dia:nth-of-type(7n + 7){
+    border-right: none;
+}
+
+.nombreDelDia{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #ccc;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+}
+
+.diaDisabled{
+    background-image: url("../WebAsociacionJDD/fotosTrbajoGrupal/fondo-diagonal-gris-geometrico-abstracto-rayas_78474-259.avif");
+    cursor: not-allowed;
+}
+
+.event {
+    background-color: lightblue;
+  }
+
+/*
+#semana{
+    margin-left: 70px;
+    padding-top: 50px;
+}
+
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    border: 5px solid;
+    background-color: white;
+    margin: 20px;
+
+  }
+  
+  .header-row {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+
+
+  }
+  
+  .day {
+    padding: 10px;
+    border: 1px solid ;
+    text-align: center;
+    margin: 13px;
+ 
+  }
+  
+  .event {
+    background-color: lightblue;
+  }
+*/
 
 .pieDePagina{
     background-color: gray;
