@@ -3,6 +3,7 @@ body{
    background-image: url(fotosTrbajoGrupal/jdd-modified2.png);
 
    font-family: Georgia, 'Times New Roman', Times, serif;
+   margin: 0;
 }
 .encabezado1{
     position: sticky;
