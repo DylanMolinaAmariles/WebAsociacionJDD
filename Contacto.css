@@ -159,6 +159,7 @@ a{
 }
 .correo{
    font-size: 20px;
+   text-align: center;
 }
 .div1{
    font-size: 20px;
@@ -197,4 +198,8 @@ th {
 .horario{
    display: flex;
    justify-content: center;
+}
+
+.div1 h3{
+   text-align: center;
 }
