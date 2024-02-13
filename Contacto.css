@@ -67,6 +67,8 @@ a{
 
 .ubicacion{
    display: flex;
+   justify-content: center;
+  
 }
 .imgcol{
    height: 450px;
@@ -156,8 +158,11 @@ a{
 
 }
 .correo{
-
    font-size: 20px;
+}
+.div1{
+   font-size: 20px;
+   
 }
 table {
    width: 50%;
@@ -179,3 +184,17 @@ th {
    color: blue;
 }
 
+.Met{
+   color : blue;
+}
+.loguito{
+   background-color: white;
+}
+.trans{
+   display: flex;
+   justify-content: center;
+}
+.horario{
+   display: flex;
+   justify-content: center;
+}
