@@ -46,3 +46,8 @@ function calendario(indice){
 }
  
 
+var tyc = document.getElementById("condiciones");
+var enviar = document.getElementById("enviar");
+
+var cambiarCondiciones = () => tyc.checked ? enviar.disabled = false : enviar.disabled = true
+
