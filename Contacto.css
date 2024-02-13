@@ -1,8 +1,15 @@
 body{
+   background-image:url("./fotosTrbajoGrupal/jdd-modified2.png"); 
+   z-index: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
 
-   background-image: url(fotosTrbajoGrupal/jdd-modified2.png);
-
-   font-family: Georgia, 'Times New Roman', Times, serif;
+a{
+    text-decoration: none;
+    color: white;
 }
 .encabezado1{
     position: sticky;
@@ -60,6 +67,8 @@ a{
 
 .ubicacion{
    display: flex;
+   justify-content: center;
+  
 }
 .imgcol{
    height: 450px;
@@ -149,8 +158,12 @@ a{
 
 }
 .correo{
-
    font-size: 20px;
+   text-align: center;
+}
+.div1{
+   font-size: 20px;
+   
 }
 table {
    width: 50%;
@@ -172,3 +185,21 @@ th {
    color: blue;
 }
 
+.Met{
+   color : blue;
+}
+.loguito{
+   background-color: white;
+}
+.trans{
+   display: flex;
+   justify-content: center;
+}
+.horario{
+   display: flex;
+   justify-content: center;
+}
+
+.div1 h3{
+   text-align: center;
+}
