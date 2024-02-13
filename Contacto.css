@@ -1,9 +1,15 @@
 body{
+   background-image:url("./fotosTrbajoGrupal/jdd-modified2.png"); 
+   z-index: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
 
-   background-image: url(fotosTrbajoGrupal/jdd-modified2.png);
-
-   font-family: Georgia, 'Times New Roman', Times, serif;
-   margin: 0;
+a{
+    text-decoration: none;
+    color: white;
 }
 .encabezado1{
     position: sticky;
