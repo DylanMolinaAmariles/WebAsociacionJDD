@@ -191,6 +191,12 @@ main .box {
   
 }
 
+.textCalendario h2{
+    margin-left: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
 .calendarioContenedor{
     width: 100%;
     max-width: 1200px;

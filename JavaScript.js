@@ -24,7 +24,7 @@ punto.forEach( ( cadaPunto , i )=> {
 
         var posicion  = i;
       
-        var operacion = posicion * -95;
+        var operacion = posicion * -97;
 
         grande.style.transform = `translateX(${ operacion }%)`;
        
