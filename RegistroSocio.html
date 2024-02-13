@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../WebAsociacionJDD/fotosTrbajoGrupal/jdd-modified.png" type="image/png">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/53ba6e752a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../WebAsociacionJDD/Registro.css">
+    
+
+</head>
+
+<body>
+    <header>
+        <a href="../WebAsociacionJDD/EstiloIndex.css" class=logo>
+            <img src="../WebAsociacionJDD/fotosTrbajoGrupal/jdd-modified.png" alt="logo">
+            <h2 class="nombre-Asociacion">Asociación de fútbol</h2>
+        </a>
+        <nav class="paginas">
+            <div class="menu-letter" onclick="toggleMenu()">Registro</div>
+            <nav id="nav">
+               <ul>
+                   <li><a href="#">Como socio</a></li>
+                   <li><a href="#">Como jugador </a></li>
+               </ul>
+           </nav>
+             <a href="" class="nav-link">Actividades</a>
+             <a href="../WebAsociacionJDD/QuienesSomos.html" class="nav-link">Información</a>
+             <a href="" class="nav-link">Contacto</a>
+         </nav>
+     
+    </header>
+    <form>
+        <fieldset>
+            <legend>Registro de socios</legend>
+
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="apellidos">Apellidos:</label><br>
+            <input type="text" id="Apellidos" name="Apellidos"><br><br>
+
+            <label for="dni">DNI:</label><br>
+            <input type="text" id="dni" name="dni" required><br><br>
+
+            <label for="email">Introduce tu email:</label>
+            <input type="email" id="email" pattern="pepito@gmail.com" size="30" required /><br><br>
+
+            <label for="estado civil">Estado civil:</label>
+            <select id="estado civil" name="estado civil">
+                <option value="Soltero" selected>Soltero</option>
+                <option value="Casado">Casado</option>
+                <option value="Divorciado">Divorciado</option>
+                <option value="Otro">Otro</option>
+            </select>
+
+            <br><br>
+
+            <label for="telefono">Numero de telefono:</label><br>
+            <input type="number" id="telefono" name="telefono"><br><br>
+
+            <label for="disponibilidad">Disponibilidad:</label>
+            <select id="disponibilidad" name="disponibilidad">
+                <option value="L-V" selected>Lunes a Viernes</option>
+                <option value="Festivos">Festivos</option>
+                <option value="Fines de semana">Fines de Semana</option>
+                <option value="Otro">Otro</option>
+            </select>
+            <br><br>
+
+            <label for="Motivacion">Motivacion para entrar:</label>
+            <select id="Motivacion" name="Motivacion">
+                <option value="Participar en actividades" selected>Participar en actividades</option>
+                <option value="Preparar actividades">Preparar actividades</option>
+                <option value="Acompañar a un menor">Acompañar a un menor</option>
+                <option value="Curiosidad por la asociacion">Curiosidad por la asociacion</option>
+                <option value="Apoyar economicamente"> Apoyar economicamente</option>
+                <option value="Otro">Otro</option>
+            </select>
+            <br><br>
+            <p>Otro:</p>
+            <textarea name="otro" rows="10" cols="30"></textarea>
+
+            <br><br>
+
+
+
+
+
+
+
+
+        </fieldset>
+
+
+
+
+
+    </form>
+
+</body>
+
+</html>
