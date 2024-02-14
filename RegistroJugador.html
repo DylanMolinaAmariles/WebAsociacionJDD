@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../WebAsociacionJDD/fotosTrbajoGrupal/jdd-modified.png" type="image/png">
+    <title>Registro Jugador</title>
+    <script src="https://kit.fontawesome.com/53ba6e752a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../WebAsociacionJDD/Registro.css">
+    <link rel="stylesheet" href="../WebAsociacionJDD/RegistroJugador.css">
+
+</head>
+
+<body>
+    <header class="encabezado1">
+        <a href="../WebAsociacionJDD/EstiloIndex.css" class=logo>
+            <img src="../WebAsociacionJDD/fotosTrbajoGrupal/jdd-modified.png" alt="logo">
+            <h2 class="nombre-Asociacion">Asociación de fútbol</h2>
+        </a>
+        <nav class="paginas">
+            <div class="menu-letter" onclick="toggleMenu()">Registro</div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#">Como socio</a></li>
+                    <li><a href="#">Como jugador </a></li>
+                </ul>
+            </nav>
+            <a href="" class="nav-link">Actividades</a>
+            <a href="../WebAsociacionJDD/QuienesSomos.html" class="nav-link">Información</a>
+            <a href="" class="nav-link">Contacto</a>
+        </nav>
+
+    </header>
+    <form action="jdd@infoasociacion.com" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>Registro de Jugadores</legend>
+            <div>
+                <label for="nombre" class="col-sm-3 col-form-label is-required">Nombre</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="apellidos">Apellidos</label><br>
+                <input type="text" id="Apellidos" name="Apellidos"><br><br>
+
+                <label for="dni" class="col-sm-3 col-form-label is-required">DNI</label><br>
+                <input type="text" id="dni" name="dni" required><br><br>
+
+                <label for="start">Fecha de nacimiento</label>
+                <input type="date" id="start" name="trip-start" value="2024-02-14" max="2024-02-19" /><br><br>
+
+                <label for="email" class="col-sm-3 col-form-label is-required">Introduce tu email</label><br>
+                <input type="email" id="email" pattern="pepito@gmail.com" size="30" required /><br><br>
+
+                <label for="Posicion">Posicion</label>
+                <select id="Posicion" name="Posicion">
+                    <option value="Soltero" selected>Portero</option>
+                    <option value="Casado">Defensa</option>
+                    <option value="Divorciado">Centrocampista</option>
+                    <option value="Otro">Delantero</option>
+                </select>
+
+                <p>Especifica tu posicion y tus puntos fuertes</p>
+                <textarea name="otro" rows="10" cols="30"></textarea>
+
+                
+            </div>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
