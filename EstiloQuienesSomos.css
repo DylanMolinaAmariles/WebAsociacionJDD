@@ -19,6 +19,7 @@ body{
      justify-content: space-between;
      align-items: center;
      padding: 10px;
+     z-index: 2;
  } 
   
  .nombre-Asociacion{
@@ -77,61 +78,97 @@ main .creadores .nosotros{
     grid-gap:50px;
     padding: 45px 0px;
 }
+
+ .nosotros p{
+    font-size: 18px;
+    color:#0a1a2a;
+    text-align: center;
+}
 .jorge{
-    width:250px;
-    height: 500px;
+    width: 500px;
+    height: 550px;
     margin: auto;
     border: solid;
+    background-color: white;
     box-shadow: 0px 0px 10px;
+    
 }
 
 .dylan{
-    width:250px;
-    height: 500px;
+    width: 500px;
+    height: 550px;
     margin: auto;
     border: solid;
+    background-color: white;
     box-shadow: 0px 0px 10px;
 }
 
 .derlys{
-    width:250px;
-    height: 500px;
+    width: 500px;
+    height: 550px;
     margin: auto;
     border: solid;
+    background-color: white;
     box-shadow: 0px 0px 10px;
 }
 
 .imagen{
-    width: 250px;
-    height: 150px;
-   
+    width: 496px;
+    height: 280px;
+    border: solid;
     
 }
 
-.cajaDePreguntas{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-
+.nosotros p a{  
+    display: inline-block;
+    text-decoration: none;
+    width: 100px;
+    height: 45px;
+    line-height: 45px;
+    color: #0d2033;
+    margin-right: 10px;
+    margin: auto;
+    
 }
+
+
+
 
 .preguntas{
     padding-left: 20px;
     font-size: 24px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.preguntas a{
+    color: blue;
+}
+.informacion{
+    height: 250px;
 }
 
 .imagenDePreguntas{
+    width: 100%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 }
 
 .imagenDePreguntas img{
-    width: 300px;
+    width: 500px;
     padding: 10px;
+    margin: auto;
 }
     
 
+.imagenDePreguntas video{
+    width: 500px;
+    padding: 10px;
+    z-index: 0;
+    margin: auto;
+}
+    
 
 
  .pieDePagina{
