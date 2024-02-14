@@ -166,8 +166,12 @@ td {
 .act{
     font-size: 30px;
     text-align: center;
+    background-color: white;
 }
 .train{
     font-size: 20px;
     text-align: center;
+}.divtrain{
+    text-align: center;
+    background-color: white;
 }
