@@ -136,5 +136,21 @@ body{
     font-size: 15px;
 }
 .enlace-terminos{
-    color: black;
+    color: blue;
 }
+fieldset{
+    background-color: beige;
+    width: 60%;
+    margin-left: 20%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.DivFormulario{
+    text-align: center;
+
+}
+.is-required:after {
+    content: '*';
+    margin-left: 3px;
+    color: red;
+    font-weight: bold;
+  }
