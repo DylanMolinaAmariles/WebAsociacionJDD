@@ -5,6 +5,7 @@ body{
  body{
      font-family: Georgia, 'Times New Roman', Times, serif;
      margin: 0;
+     
  }
  
  a{
@@ -59,9 +60,10 @@ body{
  }
  
  table {
-    width: 100%;
+    width: 80%;
     border-collapse: collapse;
     margin-top: 20px;
+    
 }
 
 th, td {
@@ -75,7 +77,7 @@ th {
 }
 
 td {
-    height: 80px;
+    height: 60px;
 
 }
 .tab{
@@ -160,4 +162,16 @@ td {
 
 .pieDePagina .caja2 small{
     font-size: 15px;
+}
+.act{
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+}
+.train{
+    font-size: 20px;
+    text-align: center;
+}.divtrain{
+    text-align: center;
+    background-color: white;
 }
