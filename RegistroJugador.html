@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../WebAsociacionJDD/fotosTrbajoGrupal/jdd-modified.png" type="image/png">
+    <title>Registro Jugador</title>
+    <script src="https://kit.fontawesome.com/53ba6e752a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../WebAsociacionJDD/Registro.css">
+    <link rel="stylesheet" href="../WebAsociacionJDD/RegistroJugador.css">
+
+</head>
+
+<body>
+    <header class="encabezado1">
+        <a href="../WebAsociacionJDD/EstiloIndex.css" class=logo>
+            <img src="../WebAsociacionJDD/fotosTrbajoGrupal/jdd-modified.png" alt="logo">
+            <h2 class="nombre-Asociacion">Asociación de fútbol</h2>
+        </a>
+        <nav class="paginas">
+            <div class="menu-letter" onclick="toggleMenu()">Registro</div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="../WebAsociacionJDD/RegistroSocio.html">Como socio</a></li>
+                </ul>
+            </nav>
+            <a href="../WebAsociacionJDD/Actividades.html" class="nav-link">Actividades</a>
+            <a href="../WebAsociacionJDD/QuienesSomos.html" class="nav-link">¿Quienes somos?</a>
+            <a href="../WebAsociacionJDD/Contacto.html" class="nav-link">Contacto</a>
+            <a href="../WebAsociacionJDD/Index.html" class="nav-link">Inicio</a>
+        </nav>
+
+    </header>
+    <form action="jdd@infoasociacion.com" method="post" enctype="text/plain">
+        <fieldset>
+            <legend><b>Registro de Jugadores</b></legend>
+            <div class="DivFormulario">
+                <label for="nombre" class="col-sm-3 col-form-label is-required">Nombre</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="apellidos">Apellidos</label><br>
+                <input type="text" id="Apellidos" name="Apellidos"><br><br>
+
+                <label for="dni" class="col-sm-3 col-form-label is-required">DNI</label><br>
+                <input type="text" id="dni" name="dni" required><br><br>
+
+                <label for="start">Fecha de nacimiento</label>
+                <input type="date" id="start" name="trip-start" value="2024-02-14" max="2024-02-19" /><br><br>
+
+                <label for="email" class="col-sm-3 col-form-label is-required">Introduce tu email</label><br>
+                <input type="email" id="email" pattern="pepito@gmail.com" size="30" required /><br><br>
+
+                <label for="Posicion">Posicion</label>
+                <select id="Posicion" name="Posicion">
+                    <option value="Soltero" selected>Portero</option>
+                    <option value="Casado">Defensa</option>
+                    <option value="Divorciado">Centrocampista</option>
+                    <option value="Otro">Delantero</option>
+                </select>
+
+                <p>Especifica tu posicion y tus puntos fuertes</p>
+                <textarea name="otro" rows="10" cols="30"></textarea>
+                <br><br>
+                <input type="checkbox" onChange="cambiarCondiciones()" id="condiciones" name="condiciones" /> Estoy de
+                acuerdo con los
+                <a href="terminos.html" target="_blank" class="enlace-terminos">términos y condiciones</a> <br />
+
+                <input id="enviar" disabled class="botons" type="submit" value="Enviar">
+                <input class="botons" type="button" value="Reinicio">
+
+
+            </div>
+        </fieldset>
+
+    </form>
+    <footer class="pieDePagina">
+        <div class="caja1">
+            <div class="box">
+                <figure>
+                    <a href="../WebAsociacionJDD/Index.html">
+                        <img src="../WebAsociacionJDD/fotosTrbajoGrupal/jdd-modified.png" alt="Logo de asociacion">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+
+                <a href="../WebAsociacionJDD/QuienesSomos.html" class="Informacion">
+                    <h2>Quienes somos</h2>
+                </a>
+            </div>
+            <div class="box">
+                <h2>Siguenos</h2>
+                <div class="red-social">
+                    <a href="" class="fa-brands fa-youtube"></a>
+                    <a href="" class="fa-brands fa-square-instagram"></a>
+                    <a href="" class="fa-brands fa-x-twitter"></a>
+                </div>
+            </div>
+
+            <nav class=" contacto">
+                <h2>Creadores:</h2>
+                <a href="mailto:dylanmolina1973@gmail.com">Dylan Molina</a>
+                <a href="mailto:derlys.denis@educa.madrid.org">Derlys Denis</a>
+                <a href="mailto:jorge.alvarez70@educa.madrid.org">Jorge Álvarez</a>
+            </nav>
+        </div>
+        <div class="caja2">
+            <small>&copy; 2024 <b>Asociación de fútbol</b> - Todos los Derechos Reservados.</small>
+        </div>
+
+
+    </footer>
+
+    <script src="../WebAsociacionJDD/JavaScript.js"> </script>
+</body>
+
+</html>
