@@ -79,9 +79,14 @@ header nav a:hover{
   font-size: 18px;
 }
 
+.contenido p {
+    color: red;
+}
 .contenido p a{
     color: blue;
 }
+
+
 
 main .tituloBox{
     margin-left: 20px;
@@ -93,7 +98,7 @@ main .box h2{
 main .box p{
     text-align: center;
     font-size: 23px;
-    color: black;
+    color: red;
 }
 
 main .box .imagen{
@@ -165,6 +170,10 @@ main .box {
    width: 500px;
    height: 400px;
    
+}
+
+.actividades .grande .actividad .textoActividades{
+    color: red;
 }
 .actividades .puntos{
     list-style-type: none;
