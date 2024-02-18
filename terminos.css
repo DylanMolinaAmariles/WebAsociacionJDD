@@ -1,5 +1,6 @@
 body{
     background-image:url("../WebAsociacionJDD/fotosTrbajoGrupal/jdd-modified2.png"); 
+    z-index: 0;
  }
  body{
      font-family: Georgia, 'Times New Roman', Times, serif;
@@ -10,7 +11,7 @@ body{
      text-decoration: none;
      color: white;
  }
- header{
+ .encabezado1{
      position: sticky;
      top: 0;
      display: flex;
@@ -19,6 +20,7 @@ body{
      justify-content: space-between;
      align-items: center;
      padding: 10px;
+     z-index: 5;
  } 
   
  .nombre-Asociacion{
@@ -41,99 +43,20 @@ body{
      margin-right: 10px;
  }
  
-
-.paginas{
-    display: flex;
-}
-
   nav a{
      font-weight: 600px;
      padding-right: 10px;
+ }
+ 
+ .paginas{
+     display: flex;
  }
  
  header nav a:hover{
     
      color: gray;
      box-shadow: 0px 0px 10px;
- 
  }
-
- #menu a{  
-    color: black;
-    font-size: 20px;
-}
-
-
-
-main .informacion1 a{
-    color: blue;
-}
-
-main .creadores .nosotros{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: auto;
-    grid-gap:50px;
-    padding: 45px 0px;
-}
-.jorge{
-    width:250px;
-    height: 500px;
-    margin: auto;
-    border: solid;
-    box-shadow: 0px 0px 10px;
-}
-
-.dylan{
-    width:250px;
-    height: 500px;
-    margin: auto;
-    border: solid;
-    box-shadow: 0px 0px 10px;
-}
-
-.derlys{
-    width:250px;
-    height: 500px;
-    margin: auto;
-    border: solid;
-    box-shadow: 0px 0px 10px;
-}
-
-.imagen{
-    width: 250px;
-    height: 150px;
-   
-    
-}
-
-.cajaDePreguntas{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-
-}
-
-.preguntas{
-    padding-left: 20px;
-    font-size: 24px;
-}
-
-.imagenDePreguntas{
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-}
-
-.imagenDePreguntas img{
-    width: 300px;
-    padding: 10px;
-}
-    
-
-
-
  .pieDePagina{
     background-color: gray;
     width: 100%;
@@ -211,4 +134,13 @@ main .creadores .nosotros{
 
 .pieDePagina .caja2 small{
     font-size: 15px;
+}
+.DivTerminos{
+   border: solid;
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20%;
 }

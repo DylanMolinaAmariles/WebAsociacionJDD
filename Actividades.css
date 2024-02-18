@@ -1,5 +1,6 @@
 body{
-    background-image:url("../WebAsociacionJDD/fotosTrbajoGrupal/jdd-modified2.png"); 
+    background-image:url("./fotosTrbajoGrupal/jdd-modified2.png"); 
+    z-index: 0;
  }
  body{
      font-family: Georgia, 'Times New Roman', Times, serif;
@@ -10,7 +11,7 @@ body{
      text-decoration: none;
      color: white;
  }
- header{
+ .encabezado1{
      position: sticky;
      top: 0;
      display: flex;
@@ -19,6 +20,7 @@ body{
      justify-content: space-between;
      align-items: center;
      padding: 10px;
+     z-index: 5;
  } 
   
  .nombre-Asociacion{
@@ -41,96 +43,45 @@ body{
      margin-right: 10px;
  }
  
-
-.paginas{
-    display: flex;
-}
-
   nav a{
      font-weight: 600px;
      padding-right: 10px;
+ }
+ 
+ .paginas{
+     display: flex;
  }
  
  header nav a:hover{
     
      color: gray;
      box-shadow: 0px 0px 10px;
- 
  }
-
- #menu a{  
-    color: black;
-    font-size: 20px;
-}
-
-
-
-main .informacion1 a{
-    color: blue;
-}
-
-main .creadores .nosotros{
+ 
+ table {
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: auto;
-    grid-gap:50px;
-    padding: 45px 0px;
-}
-.jorge{
-    width:250px;
-    height: 500px;
-    margin: auto;
-    border: solid;
-    box-shadow: 0px 0px 10px;
+    border-collapse: collapse;
+    margin-top: 20px;
 }
 
-.dylan{
-    width:250px;
-    height: 500px;
-    margin: auto;
-    border: solid;
-    box-shadow: 0px 0px 10px;
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
 }
 
-.derlys{
-    width:250px;
-    height: 500px;
-    margin: auto;
-    border: solid;
-    box-shadow: 0px 0px 10px;
+th {
+    background-color: #f2f2f2;
 }
 
-.imagen{
-    width: 250px;
-    height: 150px;
-   
-    
-}
-
-.cajaDePreguntas{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+td {
+    height: 80px;
 
 }
-
-.preguntas{
-    padding-left: 20px;
-    font-size: 24px;
+.tab{
+    background-color: white;
 }
 
-.imagenDePreguntas{
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-}
-
-.imagenDePreguntas img{
-    width: 300px;
-    padding: 10px;
-}
-    
 
 
 
@@ -138,9 +89,7 @@ main .creadores .nosotros{
     background-color: gray;
     width: 100%;
 }
-
-
-.pieDePagina .caja1{
+ .pieDePagina .caja1{
     width: 100%;
     max-width: 1200px;
     margin: auto;
