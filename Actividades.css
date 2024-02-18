@@ -174,4 +174,11 @@ td {
 }.divtrain{
     text-align: center;
     background-color: white;
+    list-style-type: none;
+}
+ul{
+    list-style: none;
+}
+ol{
+    list-style-type: none;
 }
